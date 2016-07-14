@@ -11,11 +11,11 @@ public class Losung {
     private final String Lehrtextvers;
     private final String copyright = "Copyright: Evangelische Brüder-Unität – Herrnhuter Brüdergemeine; Webseite: " +
             "www.herrnhuter.de; Weitere Informationen finden Sie hier: www.losungen.de";
-    private String dankbarkeit = "Wenn Sie dankbar für diesen Dienst sind, dann helfen Sie mit Waisenkindern in der " +
+    /*private String dankbarkeit = "Wenn Sie dankbar für diesen Dienst sind, dann helfen Sie mit Waisenkindern in der " +
             "Elfenbeinküste eine sichere Heimat und eine liebevolle Erziehung zu geben und überweisen Sie einen " +
             "kleinen Betrag an DIV-Kinder e.V. (www.div-kinder.de) Diese Meldung, sowie die Organisation DIV-Kinder " +
             "hat keinen Bezug zu der Evangelischen Brüder-Unität oder der Herrnhuter Brüdergemeine.";
-
+    */
     protected Losung(String datum, String wtag, String sonntag, String losungstext, String losungsvers, String lehrtext, String lehrtextvers) {
         Datum = datum;
         Wtag = wtag;
@@ -35,7 +35,7 @@ public class Losung {
         System.out.println(Lehrtext);
         System.out.println(Lehrtextvers);
         System.out.println(copyright);
-        System.out.println(dankbarkeit);
+        //System.out.println(dankbarkeit);
     }
 
     public String getDatum() {
@@ -70,7 +70,7 @@ public class Losung {
         return copyright;
     }
 
-    public String getDankbarkeit() {
+    /*public String getDankbarkeit() {
         return dankbarkeit;
-    }
+    }*/
 }
